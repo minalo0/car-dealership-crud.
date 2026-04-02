@@ -1,0 +1,24 @@
+{
+  "name": "car-dealership-crud",
+  "version": "1.0.0",
+  "description": "Консольное CRUD-приложение для каталога автомобилей",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "start:prod": "node dist/index.js"
+  },
+  "keywords": [
+    "typescript",
+    "crud",
+    "console"
+  ],
+  "author": "Ваше Имя",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+
+    "types": ["node"], 
+
+    "module": "ESNext",                 
+    "moduleResolution": "bundler",      
+
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    
+  }
+}
